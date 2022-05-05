@@ -1,0 +1,195 @@
+/* display background color black on navbar scroll */
+.navbarScroll.navbarDark {
+    background-color: black;
+}
+
+/* hero background image */
+.bgimage {
+    height:100vh;
+    background-image: url('/img/heroImage.png');
+    background-size:cover;
+    position:relative;
+}
+/* text css above hero image*/
+.hero_title {
+    font-size: 4.5rem;
+}
+.hero_desc {
+    font-size: 2rem;
+}
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Tapestry', cursive;
+
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+body{
+    background-color: #fff;
+
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+
+}
+
+header{
+    width: 100%;
+    padding: 20px;
+    justify-content: space-around !important;
+
+}
+
+header .logo img{
+    width: 50px;
+    height: 50px;
+
+}
+
+header h1{
+    padding-top: 10px;
+    padding-left: 5px;
+    cursor: pointer;
+    text-shadow: 2px 2px #000000;
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);
+
+
+}
+
+header h1 span{
+    color: rgb(4, 0, 255);
+    text-shadow: 2px 2px #000000;
+    text-shadow: 2px 2px 4px rgb(17, 0, 255);
+
+}
+
+header ul{
+    margin-top: 10px;
+
+}
+
+header ul li{
+    padding: 5px 20px;
+    margin: 10px;
+    transition: all 0.6s;
+
+}
+
+header ul li a{
+    font-size: 20px;
+    color: rgba(0, 4, 255, 0.705);
+    font-weight: 600;
+    text-decoration: none;
+    transition: color ease-out 0.6s;
+
+}
+
+header ul li a:hover{
+    padding: 8px 20px;
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    font-weight: 800;
+    outline: none;
+    border: none;
+    margin-top: 10px;
+    font-size: 17px;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all 0.7s;
+
+}
+
+header input{
+    padding: 8px 20px;
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    font-weight: 800;
+    outline: none;
+    border: none;
+    margin-top: 10px;
+    font-size: 17px;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all 0.7s;
+
+}
+
+header input:hover{
+    transform: scale(1.09);
+    background-color: #000000;
+
+}
+
+
+/* spacing on all sections */
+/* #about, #services, #portfolio, #contact {
+    margin-top: 4rem;
+    padding-top: 4rem;
+} */
+#contact {
+    padding-bottom: 4rem;
+}
+/* about section image css */
+.imageAboutPage {
+    width: 100%;
+}
+
+/* services section css */
+.servicesText.card {
+    height: 280px;
+    cursor: pointer;
+  }
+.servicesIcon {
+    font-size: 36px;
+    text-align: center;
+    width: 100%;
+}
+.card-title {
+    text-align: center;
+}
+.card:hover .servicesIcon {
+    color: #008000;
+}
+.servicesText:hover {
+    border: 1px solid #008000;
+}
+
+/* social media icons styling */
+.social-icons {
+    font-size: 36px;
+    cursor: pointer;
+}
+.fa-facebook:hover,.fa-instagram:hover,.fa-twitter:hover,.fa-linkedin:hover, .fa-twitch:hover {
+    color: #008000;
+}
+.fab {
+    color: #000000;
+}
+/* footer styling */
+#footer {
+    background-color: #808080;
+    text-align: center;
+}

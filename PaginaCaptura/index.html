@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <style media="screen">
+      footer{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    align-content: center;
+    height: 5vh;
+    width: 100vw;
+    color: #fff;
+}
+
+.h4-align{
+    margin: auto;
+}
+
+.banner-main{
+    width: 100vw;
+    display: flex;
+}
+
+.banner-main .aa-banner{
+    width: 100vw;
+    height: 90vh;
+    background-color: rgb(255, 255, 255);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner-main .text-banner{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.924);
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.banner-main .text-banner .size-text{
+    height: 10vh;
+    width: 70vw;
+    margin: auto;
+}
+.banner-main .text-banner h3{
+    position: relative;
+    font-size: 100px;
+    top: 20vh;
+}
+
+.banner-main .text-banner .inputs{
+  border-color: #000;
+    position: relative;
+    top: 30vh;
+}
+
+.banner-main .text-banner .inputs input{
+    border-radius: 10px;
+    border-color: #000;
+    margin-bottom: 12px;
+    padding: 10px;
+    width: 30%;
+    font-family: "Poppins";
+}
+.banner-main .text-banner .inputs input:focus{
+    box-shadow: 0 0 3em #2600ffbc;
+}
+
+.banner-main .text-banner .inputs button{
+    width: 30%;
+    padding: 15px;
+    font-size: 15px;
+    border-radius: 15px;
+}
+
+.banner-main .text-banner .inputs button:hover{
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0);
+    border: 2px solid #0004ff;
+    transition: all 300ms;
+    color: rgb(0, 0, 0);
+}
+
+.mt{
+    margin-top: 20px;
+}
+
+    </style>
+  </head>
+  <body>
+     <div class="container">
+      <header class="flex">
+        <div class="logo flex">
+          <img src="logo.png" alt="" />
+          <h1><span>Erick</span>Cursos</h1>
+        </div>
+        <ul class="flex">
+          <li><a href="#">Home</a></li>
+          <li><a href="./sobre.html">Sobre</a></li>
+          <li><a href="./Módulos/módulos.html">Módulos</a></li>
+          <li><a href="./pagamento.html">Efetuar Compra</a></li>
+        </ul>
+        <a href="./login.html">
+          <input type="button" value="Login"/>
+        </a>
+        <a href="./editUser.html">
+          <input type="button" value="Editar Usuário"/>
+          </a>
+      </header>
+      <div class="content flex">
+        <div class="one">
+          <h1>Acelere cada etapa da sua
+            <br> carreira em programação
+            <img src="texticon.png" alt=""/></h1>
+          <p>
+            Conectamos devs através da educação!
+            <br>
+Nossa missão é capacitar pessoas que buscam se profissionalizar na programação independente do seu momento ou nível de conhecimento.
+Para tal, criamos um ambiente dedicado para que programadores e programadoras possam se conectar com as oportunidades, estudar e crescer na carreira através de uma jornada de aprendizado completa e contínua.
+          </p>
+          <a href="./Módulos/ReactModule.html">
+          <input type="button" value="Em Alta!"/>
+        </a>
+        <a href="./sobre.html">
+          <input type="button" class="input2" value="Sobre Nós"/>
+        </a>
+        </div>
+        <div class="two">
+          <img class="main" src="coding.png" alt="">
+          <img class="toy" src="code logo.png" alt="">
+        </div>
+      </div>
+    </div>
+    <main>
+      <div class="banner-main">
+          <div class="aa-banner">
+              <div class="text-banner">
+                  <div class="size-text">
+                      <h3 text-banner></h3>
+                  </div>
+                  <h3>Cadastre-se!</h3>
+                  <div class="inputs">
+                      <input type="text" name="" id="" placeholder="Digite seu Nome">
+                  </div>
+                  <div class="inputs">
+                      <input type="tel" name="" id="" placeholder="Digite seu Número de Telefone">
+                  </div>
+                  <div class="inputs">
+                      <input type="number" name="" id="" placeholder="Digite seu CPF">
+                  </div>
+                  <div class="inputs mt">
+                      <button onclick="cadastrarNoEvento()">Cadastrar-se</button>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </main>
+  </body>
+
+  <footer>
+    <h4 class="h4-align">&copy;ErickCursos&copy;</h4>
+</footer>
+</html>
